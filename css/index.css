@@ -1,0 +1,116 @@
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    background-color: teal;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    background-color:black;
+    color: white;
+    padding: 1%;
+    font-size: 200%;
+    text-align: center;
+}
+.personal_data{
+    font-size: 150%;
+}
+ul{
+    list-style-type: square;
+}
+li{
+    background-color: grey;
+    padding: 5px;
+    width: 40%;
+    margin-left: 20px;
+}
+ol{
+    margin: 10px;
+    list-style: upper-roman;
+}
+address{
+    color: darkslateblue;
+    border: 1px solid white;
+    text-align: center;
+    background-color: lightcyan;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+
+.sub_division{
+    font-weight: 750;
+    margin: 1%;
+    padding: 1%;
+    background-color: darkblue;
+    color: white;
+}
+
+a{
+    color: black;
+    font-weight: 600;
+
+}
+a:visited{
+    color: darkmagenta;
+}
+a:hover{
+    color: darkblue;
+}
+
+p{
+    padding: 0%;
+    margin: 1%;
+}
+
+.years{
+    font-weight: 900;
+    text-decoration: underline;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin: 1%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 25px;
+}
+
+img:hover{
+    max-width: 100%;
+    height: auto;
+}
+
+@media(min-width: 600px) and (max-width:990){
+    img{
+        max-width: 40%;
+        height: auto;
+        border-radius: 20px;
+    }
+    footer{
+        width: 50%;
+    }
+}
+@media (min-width:991px){
+    img{
+        max-width: 50%;
+        height: auto;
+        border-radius: 10px;
+    }
+    footer{
+        width: 65%;
+    }
+    li{
+        width: 20%;
+    }
+}
